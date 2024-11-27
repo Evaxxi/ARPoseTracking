@@ -588,12 +588,15 @@ namespace Mediapipe.Unity.Sample.PoseLandmarkDetection
                             AChartRightAnkle.ClearData();
                             AChartStride.ClearData();
                             Debug.Log("Stop Recording");
-                            toCSV("CSVLeftKnee", listLeftKnee);
-                            toCSV("CSVRightKnee", listRightKnee);
-                            toCSV("CSVHip", listHip);
-                            toCSV("CSVLeftAnkle", listLeftAnkle);
-                            toCSV("CSVRightAnkle", listRightAnkle);
-                            toCSV("CSVStride", listStride);
+                            
+                            
+                            //Uncomment out for CSV Export
+                            //toCSV("CSVLeftKnee", listLeftKnee);
+                            //toCSV("CSVRightKnee", listRightKnee);
+                            //toCSV("CSVHip", listHip);
+                            //toCSV("CSVLeftAnkle", listLeftAnkle);
+                            //toCSV("CSVRightAnkle", listRightAnkle);
+                            //toCSV("CSVStride", listStride);
                             Debug.Log("Exported");
 
                             //Reset Timer
